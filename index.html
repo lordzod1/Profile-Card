@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Profile card</title>
+</head>
+
+<body>
+  <div class="card">
+    <img src="image/Godwin.jpg" alt="Godwin" data-testid="profilePicture">
+    <div id="text">
+      <h1 data-testid="fullName">Eshiet Godwin</h1>
+      <p class="title" data-testid="jobTitle">Senior Frontend Developer</p>
+      <p data-testid="shortBio">
+        "Frontend developer specializing in responsive web design, Delivering high-quality solutions with a focus on
+        user experience."
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria.</p>
+      <div>
+        <a href="https://www.linkedin.com/in/godwin-eshiet-882293345/"  data-testid="socialLinks"><i class="fa fa-linkedin"></i></a>
+
+        <a href="https://github.com/lordzod1" data-testid="socialLinks"><i class="fa fa-github"></i></a>
+
+        <a href="https://x.com/_lordzod" data-testid="socialLinks"><i class="fa fa-twitter"></i></a>
+      </div>
+      <p id="time" data-testid="currentTime"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
